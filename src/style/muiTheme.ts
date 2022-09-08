@@ -6,7 +6,7 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#56c28a',
+      main: '#9e8ec2',
     },
   },
   overrides: {

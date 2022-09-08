@@ -31,7 +31,7 @@ const Introduction = () => {
             className="w-full h-14 mb-6 sm:h-10 sm:w-36 sm:mr-8 sm:mb-0"
             variant="contained"
             color="primary"
-            href="https://app.dopex.io/sale"
+            href="http://localhost:3001"
           >
             {tc('go')}
           </Button>

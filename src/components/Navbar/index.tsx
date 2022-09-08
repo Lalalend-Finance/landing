@@ -71,7 +71,7 @@ export default function Navbar(props: NavbarProps) {
   return (
     <nav
       className={cx(
-        'flex bg-white-dark fixed top-0 sm:px-5 w-full text-white z-50 dark:bg-black',
+        'flex bg-white-dark top-0 sm:px-5 w-full text-white z-50 dark:bg-black',
         styles.navbar
       )}
     >
@@ -80,7 +80,7 @@ export default function Navbar(props: NavbarProps) {
         
         <Link href="/">
           <a className="flex items-center text-white flex-grow cursor-pointer hover:no-underline">
-            <img src="/png/logo1b.png" alt="logo" className="w-20" />
+            <img src="/png/lalalend.png" alt="logo" width={200}/>
             <span className="ml-5 text-xl font-extrabold text-black dark:text-white font-mono">
               
             </span>
@@ -115,7 +115,7 @@ export default function Navbar(props: NavbarProps) {
         >
 
           <MenuItem onClick={handleClose}>
-            <a href="https://app.dopex.io">
+            <a href="http://localhost:3001">
               <Typography variant="p">{t('launchApp')}</Typography>
             </a>
           </MenuItem>
@@ -154,7 +154,7 @@ export default function Navbar(props: NavbarProps) {
           
           <LangMenu />
           <Button
-            href="https://app.dopex.io"
+            href="http://localhost:3001"
             variant="contained"
             color="primary"
           >

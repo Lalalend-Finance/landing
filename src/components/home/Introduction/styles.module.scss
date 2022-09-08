@@ -64,8 +64,8 @@
     display: inline-block;
     color: rgb(255, 255, 255);
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(50deg, rgb(255, 192, 3) 10%, rgb(207, 230, 0) 40%, rgb(207, 230, 0) 60%, rgb(255, 192, 3) 90%) 0% 0% / 200% text;
-    background-image: linear-gradient(50deg, rgb(255, 192, 3) 10%, rgb(207, 230, 0) 40%, rgb(207, 230, 0) 60%, rgb(255, 192, 3) 90%);
+    background: linear-gradient(90deg, rgba(216,188,197,1) 0%, rgba(100,79,230,1) 0%, rgba(182,163,236,1) 100%);
+    background-image:  linear-gradient(90deg, rgba(216,188,197,1) 0%, rgba(100,79,230,1) 0%, rgba(182,163,236,1) 100%);
     background-position-x: initial;
     background-position-y: initial;
     background-size: 200%;

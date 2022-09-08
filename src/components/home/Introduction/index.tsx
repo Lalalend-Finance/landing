@@ -51,7 +51,7 @@ const Introduction = () => {
             color="primary"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-stieglitz border-stieglitz md:mx-3 h-16 md:h-10 md:pb-3 hover:text-primary transition duration-200"
+            className="text-stieglitz border-stieglitz md:mx-3 h-16 md:h-10 md:pb-3 hover:white transition duration-200"
             classes={{ label: 'text-lg md:text-sm' }}
             href="https://ouldbelkacemnael.gitbook.io/product-docs/"
           >
