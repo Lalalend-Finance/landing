@@ -63,31 +63,9 @@ export default function Navbar(props: NavbarProps) {
   const links = [
     { name: t('home'), to: '/' },
     {
-      name: t('About'),
-      subLinks: [
-        {
-          name: t('DOCS'),
-          to: 'https://docs.dopex.io/',
-        },
-        {
-          name: t('FAQ'),
-          to: 'https://docs.dopex.io/',
-        },
-        {
-          name: t('TERMS'),
-          to: 'https://www.notion.so/dopex/Dopexpedia-909043af30f344ecbfcf7be43478c3b5',
-        },
-      ],
-    },
-    {
-      name: t('community'),
-      subLinks: [
-        { name: t('twitter'), to: 'https://twitter.com/dopex_io' },
-        { name: t('discord'), to: 'https://discord.gg/dopex' },
-        { name: 'DefiPulse', to: 'https://defipulse.com/' },
-        { name: t('blog'), to: 'https://blog.dopex.io' },
-      ],
-    },
+      name: t('Docs'),
+        to: 'https://ouldbelkacemnael.gitbook.io/product-docs/',
+    }
   ];
 
   return (
@@ -143,34 +121,6 @@ export default function Navbar(props: NavbarProps) {
           </MenuItem>
           
           {links.map((link) => {
-            if (link.subLinks) {
-              return (
-                <Box key={link.name}>
-                  <Typography variant="p" className="font-bold ml-4 my-2">
-                    {link.name}
-                  </Typography>
-                  {link.subLinks.map((subLink) => {
-                    return (
-                      <MenuItem
-                        onClick={handleClose}
-                        className="ml-4"
-                        key={subLink.name}
-                      >
-                        <NavLink
-                          name={subLink.name}
-                          to={subLink.to || ''}
-                          active={subLink.name === active}
-                        >
-                          <Typography variant="p" component="span">
-                            {subLink.name}
-                          </Typography>
-                        </NavLink>
-                      </MenuItem>
-                    );
-                  })}
-                </Box>
-              );
-            }
             return (
               <MenuItem onClick={handleClose} key={link.name}>
                 <NavLink
@@ -189,16 +139,7 @@ export default function Navbar(props: NavbarProps) {
         <Box className="invisible space-x-10 flex flex-row items-center lg:visible">
           <Box className="space-x-10 hidden sm:flex">
             {links.map((link) => {
-              if (link.subLinks) {
-                return (
-                  <NavSubMenu
-                    key={link.name}
-                    menuName={link.name}
-                    links={link.subLinks}
-                    active={active}
-                  />
-                );
-              }
+              
               return (
                 <NavLink
                   to={link.to || ''}
@@ -209,13 +150,6 @@ export default function Navbar(props: NavbarProps) {
               );
             })}
           </Box>
-          {/*
-            {theme === 'dark' ? (
-              <Moon onClick={handleLight} className="cursor-pointer" />
-            ) : (
-              <Sun onClick={handleDark} className="cursor-pointer" />
-            )}
-          */}
 
           
           <LangMenu />

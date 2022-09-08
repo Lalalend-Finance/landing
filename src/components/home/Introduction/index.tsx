@@ -28,7 +28,7 @@ const Introduction = () => {
     <Section className="mb-20 md:mb-0 pt-3 sm:pt-3 md:pt-3 lg:pt-3 xl:pt-3">
       <Box className="flex flex-col items-center pt-5 px-5 md:items-center">
         <Typography variant="h1" className="mb-6 md:m-1 md:text-center">
-          <GradientText>UNLOCK</GradientText> <GradientText2> POWER </GradientText2> OF <GradientText3> OPTIONS </GradientText3>
+          <GradientText>UNLOCK</GradientText> <GradientText2> POWER </GradientText2> OF <GradientText3> LENDING </GradientText3>
     
         </Typography>
         <Typography variant="p" className="mb-8 md:m-1">
@@ -53,7 +53,7 @@ const Introduction = () => {
             rel="noopener noreferrer"
             className="text-stieglitz border-stieglitz md:mx-3 h-16 md:h-10 md:pb-3 hover:text-primary transition duration-200"
             classes={{ label: 'text-lg md:text-sm' }}
-            href="https://docs.dopex.io/"
+            href="https://ouldbelkacemnael.gitbook.io/product-docs/"
           >
             {tc('documentation')}
           </Button>

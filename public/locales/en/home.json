@@ -1,21 +1,21 @@
 {
-  "siteDescription": "Nemo enables a cross chain options protocol on Evmos",
-  "siteTitle": "Nemo Finance : Decentralized Cross Chain Options Protocol",
+  "siteDescription": "Lalalend enables a lending protocol on Evmos",
+  "siteTitle": "Lalalend Finance : Decentralized Lending Protocol",
   "benefits": {
     "0": {
       "name": "DEEP LIQUIDITY",
       "subHeader": "Suppliers",
-      "paragraph": "Receive rDPX rebates on losses incurred. Use rDPX to mint synthetic assets."
+      "paragraph": "Receive MIA on each loan/position opened. Use your assets to borrow assets."
     },
     "1": {
       "name": "More Liquidity",
       "subHeader": "Borrowers",
-      "paragraph": "Asset pools helps source liquidity for on-demand option writing across option chains"
+      "paragraph": "Asset vaults help source liquidity for on-demand borrowing positions"
     },
     "2": {
       "name": "Worry Less",
-      "subHeader": "Liquidity Providers",
-      "paragraph": "Minimize Exposure by earning DPX while providing liquidity."
+      "subHeader": "Swaps Aggregation",
+      "paragraph": "Minimize Exposure to the market thanks to our smart order routing system and execute swaps at the best price on Evmos chain."
     }
   },
   "body": {
@@ -24,33 +24,33 @@
     "paragraph": "We built a protocol with vast improvements over the existing options market.",
     "grid": {
       "0": {
-        "heading": "Price Efficiency",
-        "paragraph": "Discounted options with instant arbitrage opportunities."
+        "heading": "Borrowing/Lending Efficiency",
+        "paragraph": "Lend or borrow accross many assets without selling your assets."
       },
       "1": {
         "heading": "Deeper Liquidity",
-        "paragraph": "Purchase and swap options with any strike price."
+        "paragraph": "Each single market has its own liquidity and reserves."
       },
       "2": {
-        "heading": "Minimize Risk",
-        "paragraph": "Offset risk and minimize losses as a liquidity provider with rDPX rebates."
+        "heading": "Swaps Efficiency",
+        "paragraph": "Minimize losses with our aggregate system and enjoy best swaps orders."
       },
       "3": {
         "heading": "Constant Yield",
-        "paragraph": "Earn DPX as rewards constantly when providing liquidity to Option Pools."
+        "paragraph": "Earn MIA as rewards constantly when providing liquidity to opened Vaults."
       },
       "4": {
         "heading": "Fully Collateralized",
-        "paragraph": "All options have the collateral to back them, removing risk of third party defaults."
+        "paragraph": "All loans are over-collateralized, removing risk of bad debt."
       },
       "5": {
-        "heading": "Synths with rDPX",
-        "paragraph": "Mint synthetic assets like stocks and indices using rDPX as collateral."
+        "heading": "Synths with SEB",
+        "paragraph": "Mint SEB stablecoin using your assets as collateral."
       }
     },
     "protocolUsage": {
       "header": "Protocol Usage",
-      "uniswap": "Dopex prepares assets post expiry from Uniswap to roll-over for next expiry.",
+      "uniswap": "Lalalend prepares assets post expiry from Uniswap to roll-over for next expiry.",
       "uma": "Synthetic assets like indices, stocks are minted with rDPX as collateral on UMA.",
       "chainlink": "Chainlink oracles provide Dopex with pricing and volatility data."
     },
