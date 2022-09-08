@@ -20,7 +20,7 @@
   },
   "body": {
     "subHeader": "Built Different",
-    "header": "Defi First & Powerful Options",
+    "header": "Defi Powerful Lending-Borrowing-Aggregation Market",
     "paragraph": "We built a protocol with vast improvements over the existing options market.",
     "grid": {
       "0": {
@@ -62,14 +62,14 @@
   "tokenModel": {
     "subHeader": "Synergy",
     "header": "Dual Token Model",
-    "paragraph": "Dopex utilizes two separate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.",
+    "paragraph": "Lalalend utilizes two separate tokens to coordinate new ecosystem dynamics.",
     "dpx": {
-      "description": "DPX is the limited supply governance token.",
-      "paragraph": "It accrues fees and revenue from pools, vaults and wrappers."
+      "description": "MIA is the limited supply governance token.",
+      "paragraph": "It accrues fees and revenue from vaults and fees."
     },
     "rdpx": {
-      "description": "rDPX is the rebate token for options writers.",
-      "paragraph": "It can be used to mint synthetic assets such as indices, stocks etc."
+      "description": "SEB is the synthetic stablecoin token.",
+      "paragraph": "It can be used to stake in vaults and earn even more MIA rewards."
     }
   }
 }

@@ -33,19 +33,19 @@ const TokenModel = () => {
           <Typography variant="p" className="mb-5 text-center xl:text-left">
             {t('tokenModel.paragraph')}
           </Typography>
-          <TextLink href="https://docs.dopex.io/tokenomics">
+          <TextLink href="https://ouldbelkacemnael.gitbook.io/product-docs/governance/tokenomics">
             {tc('tokenomics')} ⟶
           </TextLink>
         </Box>
         <Box className="flex flex-col sm:flex-row xl:w-1/2">
           <Box className="flex flex-col rounded-2xl bg-white p-6 my-3 shadow-xl sm:mr-3 sm:w-1/2 dark:bg-cod-gray">
-            <Dpx className="mt-1" />
+            <img src='png/mia.png' width={100}/>
             <Typography
               variant="h3"
               component="div"
               className={cx(styles.coinTitle, 'pt-2 mb-4 xl:pt-3')}
             >
-              DPX
+              MIA
             </Typography>
             <Typography variant="p" className="mb-3">
               {t('tokenModel.dpx.description')}
@@ -55,13 +55,13 @@ const TokenModel = () => {
             </Typography>
           </Box>
           <Box className="flex flex-col rounded-2xl bg-white p-6 my-3 shadow-xl sm:ml-3 sm:w-1/2 dark:bg-cod-gray">
-            <Rdpx />
+            <img src='png/seb.png' width={100}/>
             <Typography
               variant="h3"
               component="div"
               className={cx(styles.coinTitle, 'pt-2 mb-4 xl:pt-3')}
             >
-              rDPX
+              SEB
             </Typography>
             <Typography variant="p" className="mb-3">
               {t('tokenModel.rdpx.description')}
