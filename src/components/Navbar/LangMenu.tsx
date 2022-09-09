@@ -8,11 +8,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 import Typography from 'components/UI/Typography';
 
 const LANGUAGE_CODES = {
-  en: 'EN',
-  zh: '中文',
-  ro: 'русский',
-  ko: '한국어',
-  tr: 'Türk',
+  en: 'EN'
 };
 
 const LangMenu = () => {

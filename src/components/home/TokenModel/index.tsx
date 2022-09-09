@@ -5,8 +5,7 @@ import { useTranslation } from 'react-i18next';
 import TextLink from 'components/UI/TextLink';
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
-import Dpx from 'assets/coins/Dpx';
-import Rdpx from 'assets/coins/Rdpx';
+
 
 import styles from './styles.module.scss';
 
